@@ -10,16 +10,30 @@ public class TPSCharacterController : MonoBehaviour
     private Transform cameraArm;
 
     Animator animator;
+    Rigidbody rigid;
+    public float jumpForce = 15.0f;
 
     void Start()
     {
         animator = characterBody.GetComponent<Animator>();
+        rigid = characterBody.GetComponent<Rigidbody>();
     }
     void Update()
     {
-        LookAround();
         Move();
+        InteractObj();
     }
+
+    private void FixedUpdate()
+    {
+        
+    }
+
+    private void LateUpdate()
+    {
+        LookAround();
+    }
+
     private void LookAround()
     {
         Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
@@ -54,5 +68,16 @@ public class TPSCharacterController : MonoBehaviour
             transform.position += moveDir * Time.deltaTime * 5f;
         }
     }
+
+    private void InteractObj()
+    {
+        if (Input.GetMouseButton(0))
+            animator.SetBool("isInteracting", true);
+        else
+            animator.SetBool("isInteracting", false);
+        
+    }
+
+    
 }
 

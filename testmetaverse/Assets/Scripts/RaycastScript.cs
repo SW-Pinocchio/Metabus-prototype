@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class RaycastScript : MonoBehaviour
 {
+    Ray ray;
     RaycastHit hit;
-    float MaxDistance = 10f;
+    float maxDistance = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,14 +16,20 @@ public class RaycastScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        int layerMask = 1 << LayerMask.NameToLayer("Object");
+        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(ray, out hit, maxDistance ,layerMask))
         {
-            Debug.DrawRay(transform.position, transform.forward * MaxDistance, Color.blue, 0.3f);
-            if (Physics.Raycast(transform.position, transform.forward, out hit, MaxDistance))
+            if (Input.GetMouseButton(0))
             {
-                hit.transform.GetComponent<MeshRenderer>().material.color = Color.red;
+                hit.collider.gameObject.GetComponent<ObjectController>().ObjPressed = true;
+            }
+            else
+            {
+                Debug.Log(hit.collider.gameObject.name);
+                hit.collider.gameObject.GetComponent<ObjectController>().ObjFocused = true;
             }
         }
-        
     }
 }
