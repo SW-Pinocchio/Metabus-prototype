@@ -9,8 +9,7 @@ public class ObjectController : MonoBehaviour
     bool objFocused;
     bool objPressed;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         objFocused = false;
         objPressed = false;

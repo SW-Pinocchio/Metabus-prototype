@@ -7,19 +7,19 @@ public class RaycastScript : MonoBehaviour
     Ray ray;
     RaycastHit hit;
     float maxDistance = 10f;
-    // Start is called before the first frame update
-    void Start()
+    int objLayerMask;
+
+    void Awake()
     {
-        
+        objLayerMask = 1 << LayerMask.NameToLayer("Object");
     }
 
     // Update is called once per frame
     void Update()
     {
-        int layerMask = 1 << LayerMask.NameToLayer("Object");
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out hit, maxDistance ,layerMask))
+        if (Physics.Raycast(ray, out hit, maxDistance , objLayerMask))
         {
             if (Input.GetMouseButton(0))
             {

@@ -13,11 +13,12 @@ public class TPSCharacterController : MonoBehaviour
     Rigidbody rigid;
     public float jumpForce = 15.0f;
 
-    void Start()
+    void Awake()
     {
         animator = characterBody.GetComponent<Animator>();
         rigid = characterBody.GetComponent<Rigidbody>();
     }
+
     void Update()
     {
         Move();
@@ -39,7 +40,7 @@ public class TPSCharacterController : MonoBehaviour
         Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
         Vector3 camAngle = cameraArm.rotation.eulerAngles;
 
-        //추가
+        // 카메라 각도 제한 (마우스를 움직이다보면 화면이 뒤집어지는 문제 발생)
         float x = camAngle.x - mouseDelta.y;
         if (x < 180f)
         {
@@ -75,9 +76,6 @@ public class TPSCharacterController : MonoBehaviour
             animator.SetBool("isInteracting", true);
         else
             animator.SetBool("isInteracting", false);
-        
     }
-
-    
 }
 
