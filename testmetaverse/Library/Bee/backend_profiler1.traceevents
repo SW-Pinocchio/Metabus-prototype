@@ -1,0 +1,655 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668007379969103, "dur":910, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007379970021, "dur":104, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668007379970133, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668007379970150, "dur":569, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668007379970756, "dur":546, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007379971302, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380720763, "dur":202, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380720966, "dur":102, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721068, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721069, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721084, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721084, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721108, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721110, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721116, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721116, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721122, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721123, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721128, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721129, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721135, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721136, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721142, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721143, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721149, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721150, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721156, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721175, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721180, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721181, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721186, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721202, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380721278, "dur":1388, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668007379970769, "dur":539, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007379971310, "dur":4497, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007379975821, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668007379975826, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007379975942, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668007379975980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007379978102, "dur":9653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668007379987761, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1668007379988035, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007379988187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007379988995, "dur":53571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1668007380042648, "dur":106009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380148658, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380148806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380148815, "dur":21051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380169942, "dur":43973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380213917, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380214077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380214086, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380217185, "dur":40041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380257227, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380257490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380257501, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380259066, "dur":22266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380281334, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380281447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380281457, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380282788, "dur":28751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380311540, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380311677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380311687, "dur":4285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380315988, "dur":111569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380427558, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380427700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380427710, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380428867, "dur":30057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380458924, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380459048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380459057, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380460728, "dur":157771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380618499, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380618562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668007380618567, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668007380620910, "dur":99871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007379970802, "dur":511, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007379971313, "dur":4501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007379975819, "dur":935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668007379976754, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007379976850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007379980092, "dur":7510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668007379987812, "dur":8629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668007379996443, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007379996587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007379996741, "dur":47568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668007380044439, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1668007380044608, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380044699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380045107, "dur":18999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1668007380064204, "dur":36172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380100377, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380100518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380100526, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380102071, "dur":19320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380121392, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380121506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380121517, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380122717, "dur":126006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380248724, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380248836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380248845, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380250691, "dur":19179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380269871, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380269995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380270005, "dur":13129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380283175, "dur":23409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380306584, "dur":2377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380308968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380308975, "dur":6301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380315302, "dur":50131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380365433, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380365519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380365526, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380366706, "dur":45130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380411842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380411954, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380413609, "dur":118740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380532349, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380532794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380532802, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380534854, "dur":182686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380717541, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380717612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668007380717618, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668007380720729, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1668007380720731, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007379970832, "dur":485, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007379971317, "dur":4495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007379975822, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668007379976461, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007379976600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007379979742, "dur":8618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668007379988460, "dur":53537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380041997, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380042185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380042647, "dur":7201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380049927, "dur":35204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380085132, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380085256, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380085265, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380086587, "dur":24110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380110698, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380110778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380110784, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380111915, "dur":39409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380151324, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380151405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380151413, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380152707, "dur":23950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380176658, "dur":7120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380183785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380183798, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380184999, "dur":79965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380264964, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380265047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380265053, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380266365, "dur":18153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380284518, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380284620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380284628, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380286245, "dur":90375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380376621, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380376793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380376805, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380379032, "dur":21610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380400651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380400664, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380402109, "dur":197727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380599837, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380599932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668007380599941, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668007380603653, "dur":117142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007379970856, "dur":465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007379971321, "dur":4492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007379975822, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668007379976245, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007379976554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007379979686, "dur":171687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668007380151473, "dur":78617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380230091, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380230269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380230276, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380231818, "dur":17839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380249657, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380249733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380249739, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380250790, "dur":33286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380284077, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380284215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380284226, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380286225, "dur":18603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380304828, "dur":2466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380307300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380307309, "dur":7831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380315178, "dur":24830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380340038, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380340329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380340338, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380341971, "dur":52525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380394497, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380394642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380394654, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380395901, "dur":20053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380415963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380415974, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380417427, "dur":66092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380483520, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380483591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380483597, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380484705, "dur":99507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380584213, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380584347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380584355, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668007380585893, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668007380586055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380586061, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668007380588804, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1668007380588858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668007380588866, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1668007380595853, "dur":124907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007379970876, "dur":449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007379971325, "dur":4485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007379975820, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668007379976105, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007379976581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007379980061, "dur":7834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668007379988128, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1668007379988334, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007379988466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007379988668, "dur":187965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1668007380176749, "dur":67498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380244247, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380244371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380244381, "dur":8513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380252920, "dur":109782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380362703, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380362811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380362821, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380364426, "dur":3001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380367434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380367440, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380368647, "dur":17263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380385920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380385932, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380387244, "dur":23150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380410405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380410417, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380412618, "dur":137845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380550464, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380550585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380550596, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380552136, "dur":86225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380638368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668007380638377, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668007380639389, "dur":81378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007379970899, "dur":429, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007379971328, "dur":4480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007379975820, "dur":66338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1668007380042159, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380042298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380042875, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1668007380045477, "dur":34681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380080159, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380080305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380080315, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380081829, "dur":94089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380175919, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380176031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380176042, "dur":7518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380183588, "dur":53524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380237114, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380237258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380237269, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380239256, "dur":46172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380285429, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380285507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380285515, "dur":4555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380290096, "dur":42083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380332180, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380332334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380332344, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380333622, "dur":45899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380379527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380379535, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380380909, "dur":20556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380401474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380401484, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380403273, "dur":82868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380486142, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380486215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380486222, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380487389, "dur":104942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380592332, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380592398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380592404, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668007380593973, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668007380593991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668007380593996, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668007380596258, "dur":124499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007379970925, "dur":408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007379971333, "dur":4478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007379975821, "dur":8039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1668007379983861, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007379983992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007379984337, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1668007379987931, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1668007379988155, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007379988255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007379988655, "dur":55367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1668007380044118, "dur":40311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1668007380084430, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380084566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380084574, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1668007380086864, "dur":23130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380109995, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380110121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380110129, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380111481, "dur":32827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380144309, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380144431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380144444, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380145996, "dur":62026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380208023, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380208099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380208106, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380209176, "dur":31564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380240741, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380240887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380240897, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380242393, "dur":23455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380265849, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380265999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380266008, "dur":5097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380271136, "dur":23486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380294623, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380294771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380294782, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380296729, "dur":18916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380315646, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380315723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380315731, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380316777, "dur":33399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380350177, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380350323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380350333, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380351609, "dur":3189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380354841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380354850, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380355988, "dur":690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380356684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380356691, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380357807, "dur":30181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380387995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380388004, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380389279, "dur":27690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380416978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380416986, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380418427, "dur":62363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380480791, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380480951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380480961, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380482691, "dur":108813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380591505, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380591617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380591624, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668007380593995, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1668007380594012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668007380594016, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1668007380596028, "dur":124728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007379970943, "dur":395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007379971338, "dur":4478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007379975820, "dur":7896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1668007379983716, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007379983803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007379984288, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1668007379988291, "dur":53676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380041970, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380042131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380042628, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380045392, "dur":21588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380066981, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380067133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380067247, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380068476, "dur":33164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380101641, "dur":1727, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380103375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380103384, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380104667, "dur":80051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380184719, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380184852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380184860, "dur":9207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380194095, "dur":19416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380213512, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380213666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380213677, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380217082, "dur":17465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380234547, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380234663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380234672, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380235836, "dur":65983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380301820, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380301981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380302043, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380304560, "dur":29517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380334078, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380334155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380334162, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380335255, "dur":84849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380420112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380420121, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380421809, "dur":81016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380502825, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380502934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380502943, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380504126, "dur":101445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380605572, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380605645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668007380605652, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668007380607039, "dur":113751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007379970966, "dur":375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007379971341, "dur":4477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007379975821, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1668007379976339, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007379976665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007379979986, "dur":8008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1668007379988197, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1668007379988432, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007379988541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007379988554, "dur":56171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1668007380044818, "dur":19678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380064497, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380064575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380064897, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380066055, "dur":19085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380085140, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380085552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380085558, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380087225, "dur":20151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380107376, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380107503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380107513, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380108677, "dur":18734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380127411, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380127512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380127519, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380129083, "dur":19965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380149049, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380149167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380149176, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380151962, "dur":54115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380206079, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380206266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380206277, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380207680, "dur":47369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380255050, "dur":9346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380264409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380264422, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380268594, "dur":36057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380304652, "dur":967, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380305626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380305636, "dur":11440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380317097, "dur":23064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380340162, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380340291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380340301, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380342487, "dur":58979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380401471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380401478, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380403266, "dur":49848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380453115, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380453230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380453239, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380454587, "dur":155731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380610319, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380610400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668007380610404, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668007380611433, "dur":109340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007379970987, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007379971345, "dur":4477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007379975823, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1668007379976269, "dur":401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007379976675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007379979694, "dur":164093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1668007380143881, "dur":32209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380176092, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380176233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380176242, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380177522, "dur":52261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380229785, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380229967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380229975, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380231765, "dur":43256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380275022, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380275165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380275176, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380276618, "dur":25329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380301948, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380302077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380302086, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380304573, "dur":39066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380343640, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380343784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380343793, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380345243, "dur":186922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380532176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380532298, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380535261, "dur":152833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380688095, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380688204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668007380688212, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668007380689240, "dur":31518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007379971006, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007379971349, "dur":4470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007379975821, "dur":7781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1668007379983603, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007379983729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007379984351, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1668007379988148, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1668007379988468, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007379988555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007379988560, "dur":55524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1668007380044242, "dur":29581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse.exe" }}
+,{ "pid":12345, "tid":11, "ts":1668007380073824, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380073998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380074006, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse.exe" }}
+,{ "pid":12345, "tid":11, "ts":1668007380076867, "dur":23252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380100120, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380100325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380100336, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380101942, "dur":21016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380122959, "dur":768, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380123735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380123765, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380125771, "dur":146747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380272526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380272536, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380274549, "dur":60926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380335475, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380335560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380335568, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380337014, "dur":83121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380420139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380420144, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380421809, "dur":38129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380459938, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380460019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380460027, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380461833, "dur":144862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380606696, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380606762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668007380606766, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668007380608886, "dur":111901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007379971026, "dur":325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007379971352, "dur":4461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007379975820, "dur":7722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1668007379983543, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007379983635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007379984281, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1668007379988060, "dur":53935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1668007380041996, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380042149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380042158, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1668007380044511, "dur":56195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380100707, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380101049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380101057, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380102758, "dur":77728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380180487, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380180571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380180580, "dur":14175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380194774, "dur":50867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380245641, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380245719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380245726, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380248886, "dur":54590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380303477, "dur":3157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380306640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380306648, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380311466, "dur":40514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380351980, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380352097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380352107, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380353944, "dur":41880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380395830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380395868, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380397454, "dur":80187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380477642, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380477747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380477756, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380478979, "dur":33543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380512523, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380512649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380512658, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380514386, "dur":38011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380552398, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380552471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380552479, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668007380553690, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1668007380553821, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380553888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380554368, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1668007380555407, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1668007380555429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380555513, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1668007380556779, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380556795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380556800, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380557823, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380557841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380557845, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380558860, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380558874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380558878, "dur":10239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380569142, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380569162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380569170, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380571180, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380571198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380571204, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380572624, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1668007380572769, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380572828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380572835, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1668007380573847, "dur":6711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1668007380580559, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380580700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380580709, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1668007380582040, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380582062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380582069, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380584485, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380584501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380584507, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668007380586332, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1668007380586350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380586356, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1668007380588385, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380588399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380588404, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380589831, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380589850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380589854, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1668007380591331, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1668007380591351, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380591356, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1668007380595291, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/buske/OneDrive/ /testmetaverse_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1668007380595942, "dur":903, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380596851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668007380596863, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/buske/OneDrive/ /testmetaverse_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1668007380598493, "dur":122261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668007380723839, "dur":2089, "ph":"X", "name": "ProfilerWriteOutput" }
+,
