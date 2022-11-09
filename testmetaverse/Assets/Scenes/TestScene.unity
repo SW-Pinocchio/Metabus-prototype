@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 21436174}
   - component: {fileID: 21436175}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RayBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,9 +174,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -236,9 +244,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -298,9 +314,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -360,9 +384,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -422,9 +454,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -484,9 +524,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -552,7 +600,7 @@ GameObject:
   - component: {fileID: 238397992}
   - component: {fileID: 238397991}
   - component: {fileID: 238397995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,6 +697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d401bd347f2ae438d3bf19527ff309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objName: 
 --- !u!1001 &306346833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -656,9 +705,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -718,9 +775,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -780,9 +845,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -842,9 +915,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -904,9 +985,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -966,9 +1055,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1028,9 +1125,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1090,9 +1195,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1152,9 +1265,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1216,26 +1337,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 542855918}
-  - component: {fileID: 542855917}
+  - component: {fileID: 542855919}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &542855917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542855916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d78b0ea1fa7787d4d90e4ed365dd3ee8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &542855918
 Transform:
   m_ObjectHideFlags: 0
@@ -1251,6 +1360,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &542855919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542855916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7f2a933bf383c4fa3fe87cc3270540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &548027121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1258,9 +1379,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -1320,9 +1449,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1382,9 +1519,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -1444,9 +1589,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1516,7 +1669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1550,9 +1703,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7862391691550088030, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -7080476283249816269, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4861978581900536190, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4172883232815250124, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3822033116047627821, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3805986268185171225, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -1825688797878500058, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -1169650534895030126, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
       propertyPath: m_Name
       value: BoxMan@Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234638374124979267, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027351842013315296, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866880679909356167, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879448335144010895, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb764742f297d7c4ab82bdba4883dec8, type: 3}
@@ -1563,9 +1768,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -1630,7 +1843,7 @@ GameObject:
   - component: {fileID: 610805431}
   - component: {fileID: 610805430}
   - component: {fileID: 610805429}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1745,6 +1958,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!54 &612400497
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612400494}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 64
+  m_CollisionDetection: 1
+--- !u!136 &612400498
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612400494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &693247671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,7 +2001,7 @@ GameObject:
   - component: {fileID: 693247673}
   - component: {fileID: 693247672}
   - component: {fileID: 693247676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1855,6 +2098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d401bd347f2ae438d3bf19527ff309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objName: 
 --- !u!1001 &698907889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1862,9 +2106,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1924,9 +2176,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -1986,9 +2246,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2048,9 +2316,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -2110,9 +2386,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2172,9 +2456,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2234,9 +2526,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2296,9 +2596,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2358,9 +2666,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2420,9 +2736,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -2482,9 +2806,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2544,9 +2876,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2606,9 +2946,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2668,9 +3016,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -2730,9 +3086,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -2792,9 +3156,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -2859,7 +3231,7 @@ GameObject:
   - component: {fileID: 955794069}
   - component: {fileID: 955794068}
   - component: {fileID: 955794067}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3045,9 +3417,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3107,9 +3487,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3169,9 +3557,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3231,9 +3627,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3293,9 +3697,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3355,9 +3767,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3417,9 +3837,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3479,9 +3907,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3541,9 +3977,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3603,9 +4047,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -3665,9 +4117,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3727,9 +4187,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3789,9 +4257,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1713955006848002, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_Name
       value: Sideway 1 prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4707663690335112, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_RootOrder
@@ -3851,9 +4327,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3913,9 +4397,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -3975,9 +4467,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4037,9 +4537,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4099,9 +4607,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4161,9 +4677,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4229,7 +4753,7 @@ GameObject:
   - component: {fileID: 1503814353}
   - component: {fileID: 1503814352}
   - component: {fileID: 1503814356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4326,6 +4850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d401bd347f2ae438d3bf19527ff309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objName: 
 --- !u!1001 &1518269341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4333,9 +4858,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4395,9 +4928,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -4461,7 +5002,7 @@ GameObject:
   - component: {fileID: 1544157633}
   - component: {fileID: 1544157635}
   - component: {fileID: 1544157634}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -4543,7 +5084,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1557118413}
-  m_Layer: 0
+  - component: {fileID: 1557118414}
+  m_Layer: 7
   m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4649,6 +5191,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1557118414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557118412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.664036, y: 0.32277775, z: 19.78101}
+  m_Center: {x: -1.303154, y: -13.977608, z: -13.6600685}
 --- !u!1001 &1562603752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4656,9 +5211,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4718,9 +5281,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4780,9 +5351,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4842,9 +5421,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4904,9 +5491,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -4966,9 +5561,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5028,9 +5631,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -5090,9 +5701,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5152,9 +5771,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5214,9 +5841,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5278,7 +5913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1704452945}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camera Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5308,9 +5943,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -5370,9 +6013,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5432,9 +6083,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1713955006848002, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_Name
       value: Sideway 1 prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4707663690335112, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_RootOrder
@@ -5494,9 +6153,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -5556,9 +6223,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1713955006848002, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_Name
       value: Sideway 1 prefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4707663690335112, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_RootOrder
@@ -5618,9 +6293,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5680,9 +6363,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5742,9 +6433,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5804,9 +6503,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5866,9 +6573,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -5928,9 +6643,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -5990,9 +6713,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -6052,9 +6783,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1042823340282078, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_Name
       value: Sideway 2 prefab (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115635006553536, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4162025915171580, guid: 9cb5b35ecfd548b4d87e1c513764ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -6114,9 +6853,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -6176,9 +6923,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -6238,9 +6993,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1261490130844430, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_Name
       value: WalkWay 5 prefab (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282587026986886, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
       propertyPath: m_RootOrder
@@ -6300,9 +7063,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557118413}
     m_Modifications:
+    - target: {fileID: 1713955006848002, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_Name
       value: Sideway 1 prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776196694413168, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4707663690335112, guid: ff7206cbdafefa144bb8ac229bf9046e, type: 3}
       propertyPath: m_RootOrder
@@ -6365,7 +7136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2135824535}
   - component: {fileID: 2135824534}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6394,7 +7165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135824533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.18, y: 0, z: 8.56}
+  m_LocalPosition: {x: 11.18, y: 0.95, z: 8.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
