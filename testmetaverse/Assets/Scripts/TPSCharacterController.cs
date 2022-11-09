@@ -11,12 +11,16 @@ public class TPSCharacterController : MonoBehaviour
 
     Animator animator;
     Rigidbody rigid;
-    public float jumpForce = 15.0f;
+
+    bool isJumpingUp; // 위로 점프 중
+    //bool isJumpingDown; // 점프하고 아래로 떨어지는 중
+    bool isOnGround; // 플레이어가 땅 위에 서있는지 체크
 
     void Awake()
     {
         animator = characterBody.GetComponent<Animator>();
         rigid = characterBody.GetComponent<Rigidbody>();
+        isOnGround = true;
     }
 
     void Update()
@@ -27,7 +31,7 @@ public class TPSCharacterController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
+        Jump();
     }
 
     private void LateUpdate()
@@ -57,9 +61,9 @@ public class TPSCharacterController : MonoBehaviour
     private void Move()
     {
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        bool isMove = moveInput.magnitude != 0;
-        animator.SetBool("isMove", isMove);
-        if (isMove)
+        bool isMoving = moveInput.magnitude != 0;
+        animator.SetBool("isMoving", isMoving);
+        if (isMoving)
         {
             Vector3 lookForward = new Vector3(cameraArm.forward.x, 0f, cameraArm.forward.z).normalized;
             Vector3 lookRight = new Vector3(cameraArm.right.x, 0f, cameraArm.right.z).normalized;
@@ -76,6 +80,26 @@ public class TPSCharacterController : MonoBehaviour
             animator.SetBool("isInteracting", true);
         else
             animator.SetBool("isInteracting", false);
+    }
+
+    private void Jump()
+    {
+        if (Input.GetButtonDown("Jump") && isOnGround)
+        {
+            rigid.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
+            isOnGround = false;
+            Debug.Log("Jumping");
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Platform"))
+        {
+            Debug.Log("On the Ground");
+            isOnGround = true;
+        }
     }
 }
 
