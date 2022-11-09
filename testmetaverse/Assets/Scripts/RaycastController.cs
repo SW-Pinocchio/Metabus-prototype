@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RaycastController : MonoBehaviour
 {
-    //asd
     Ray ray;
     RaycastHit hit;
     float maxDistance = 10f;

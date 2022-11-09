@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ObjectController : MonoBehaviour
 {
-    //asd
     [Tooltip("오브젝트 이름")]
     public string objName;
     bool objFocused;
