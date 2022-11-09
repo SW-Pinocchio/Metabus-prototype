@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RaycastScript : MonoBehaviour
+public class RaycastController : MonoBehaviour
 {
     Ray ray;
     RaycastHit hit;
