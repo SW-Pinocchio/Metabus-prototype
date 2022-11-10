@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     void Awake()
     {
-        Cursor.visible = true;
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
