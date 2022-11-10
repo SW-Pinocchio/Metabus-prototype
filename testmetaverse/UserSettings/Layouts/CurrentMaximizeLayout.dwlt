@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 240
     height: 567
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -225,9 +225,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e0c90f00
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4c77ecfffe5beeffb463eeff7669eeff744ef0ff7a1bf4ff62fef5ffdedcf9ff24fcfbffb8e5fdffb6e7fdffb4c8ffff50c9ffffcccdffff58ceffff8ccfffff54d0ffff24d5ffffead9fffff6e6ffff10e9ffffa0e9ffffbeefffff48f0ffffc2f4ffff96faffffda62000022630000427700007c0e0100120402001ea4090062ec090088e70c00d0e70c00
+      m_ExpandedIDs: 0418feff36fbffff04e6000010e60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 459
     height: 567
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -630,8 +630,8 @@ MonoBehaviour:
     y: 0
     width: 447
     height: 567
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -705,22 +705,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/POLYGON city pack/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/POLYGON city pack/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\GitHub(E)\Metabus-prototype\testmetaverse
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 245d0000
-    m_LastClickedID: 23844
-    m_ExpandedIDs: 00000000145d0000165d0000185d000000ca9a3bffffff7f
+    m_SelectedIDs: 7ae50000
+    m_LastClickedID: 58746
+    m_ExpandedIDs: 00000000fae40000fce40000fee4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,7 +748,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000145d0000165d0000185d000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000fae40000fce40000fee4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -773,9 +773,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e0c90f00
-    m_LastClickedInstanceID: 1034720
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ec5c0000f65c0000f45b0000fe5c00003e75000046750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
