@@ -12,15 +12,13 @@ public class TPSCharacterController : MonoBehaviour
     Animator animator;
     Rigidbody rigid;
 
-    bool isJumpingUp; // 위로 점프 중
-    //bool isJumpingDown; // 점프하고 아래로 떨어지는 중
-    bool isOnGround; // 플레이어가 땅 위에 서있는지 체크
+    bool isJumping; // 위로 점프 중
 
     void Awake()
     {
         animator = characterBody.GetComponent<Animator>();
-        rigid = characterBody.GetComponent<Rigidbody>();
-        isOnGround = true;
+        rigid = GetComponent<Rigidbody>();
+        isJumping = true;
     }
 
     void Update()
@@ -84,21 +82,21 @@ public class TPSCharacterController : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetButtonDown("Jump") && isOnGround)
+        if (Input.GetButtonDown("Jump") && isJumping)
         {
             rigid.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
-            isOnGround = false;
+            isJumping = false;
             Debug.Log("Jumping");
         }
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Platform"))
+        Debug.Log("Layer: " + collision.gameObject.layer);
+        if (collision.gameObject.layer != LayerMask.NameToLayer("Player"))
         {
             Debug.Log("On the Ground");
-            isOnGround = true;
+            isJumping = true;
         }
     }
 }
