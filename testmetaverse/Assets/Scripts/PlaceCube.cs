@@ -91,8 +91,6 @@ public class PlaceCube : MonoBehaviour
                 }
             }
         }
-
-        
     }
 
     public void SetNextCube()
