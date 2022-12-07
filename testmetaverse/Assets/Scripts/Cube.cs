@@ -37,6 +37,5 @@ public class Cube : MonoBehaviour
                 lods[i].renderers[j].material = mat;
             }
         }
-
     }
 }

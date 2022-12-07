@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlaceCube : MonoBehaviour
 {
@@ -32,20 +34,22 @@ public class PlaceCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentCube != null) 
-        {
-            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out var hitInfo, float.MaxValue, CubeLogic.cubeLayerMask))
+        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (currentCube != null)
+        { 
+            if (Physics.Raycast(ray, out var hit, float.MaxValue, CubeLogic.cubeLayerMask))
             {
-                Debug.Log(currentCube == null ? "null" : "ok");
-                // snap to grid
-                Vector3 position = CubeLogic.SnapToGrid(hitInfo.point);
 
+                // snap to grid
+                var position = CubeLogic.SnapToGrid(hit.point);
+
+                // try to find a collision free position
                 Vector3 placePosition = position;
                 positionOK = false;
                 for (int i = 0; i < 10; i++)
                 {
-                    Collider[] collider = Physics.OverlapBox(placePosition + currentCube.transform.rotation * currentCube.boxCollider.center, currentCube.boxCollider.size / 2, currentCube.transform.rotation, CubeLogic.cubeLayerMask);
+                    Collider[] collider = Physics.OverlapBox(placePosition + currentCube.transform.rotation * currentCube.boxCollider.center, 
+                        currentCube.boxCollider.size / 2, currentCube.transform.rotation, CubeLogic.cubeLayerMask);
                     positionOK = collider.Length == 0;
                     if (positionOK)
                         break;
@@ -57,36 +61,38 @@ public class PlaceCube : MonoBehaviour
                     currentCube.transform.position = placePosition;
                 else
                     currentCube.transform.position = position;
+            }
+        }
 
-                // place the cube
-                if(Input.GetMouseButtonDown(0)&&currentCube!=null&&positionOK)
+        // place the brick
+        if (Input.GetMouseButtonDown(0) && currentCube != null && positionOK)
+        {
+            currentCube.boxCollider.enabled = true;
+            currentCube.SetMaterial(cubeMaterial);
+            Quaternion cubeRotation = currentCube.transform.rotation;
+            currentCube = null;
+            SetNextCube();
+            currentCube.transform.rotation = cubeRotation;
+        }
+
+        // rotate cube
+        if (Input.GetKeyDown(KeyCode.E))
+            currentCube.transform.Rotate(Vector3.up, 90);
+
+        // delete brick
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (Physics.Raycast(ray, out var hit, float.MaxValue, CubeLogic.cubeLayerMask))
+            {
+                var cube = hit.collider.GetComponent<Cube>();
+                if (cube != null)
                 {
-                    currentCube.boxCollider.enabled = true;
-                    currentCube.SetMaterial(cubeMaterial);
-                    Quaternion cubeRotation = currentCube.transform.rotation;
-                    currentCube = null;
-                    SetNextCube();
-                    currentCube.transform.rotation = cubeRotation; 
-                }
-
-                // rotate cube
-                if (Input.GetKeyDown(KeyCode.E))
-                    currentCube.transform.Rotate(Vector3.up, 90);
-
-                // delete brick
-                if(Input.GetMouseButtonDown(1))
-                {
-                    if(Physics.Raycast(Camera.main.transform.position+Vector3.up*0.1f*controller.CameraDistance,Camera.main.transform.forward, out var hit, float.MaxValue, CubeLogic.cubeLayerMask))
-                    {
-                        var cube = hit.collider.GetComponent<Cube>();
-                        if(cube!=null)
-                        {
-                            GameObject.DestroyImmediate(cube.gameObject);
-                        }
-                    }
+                    GameObject.DestroyImmediate(cube.gameObject);
                 }
             }
         }
+
+        
     }
 
     public void SetNextCube()
