@@ -36,8 +36,17 @@ public class PlaceItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(Input.GetAxis("Mouse ScrollWheel")) != 0)
-            ActiveItemByScrollWheel();
+        // scroll to activate item
+        if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        {
+            itemIndex++;
+        }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        {
+            itemIndex--;
+        }
+        itemIndex = Mathf.Clamp(itemIndex, 0, 102);
+        ActiveItem();
 
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (currentItemPlace != null)
@@ -101,28 +110,17 @@ public class PlaceItem : MonoBehaviour
     {
         currentItemPlace = Instantiate(placeItem);
         currentItemPlace.transform.GetChild(itemIndex).gameObject.SetActive(true);
+        ActiveItem();
 
         Debug.Log(currentItemPlace.name);
         currentItemPlace.BoxCollider.enabled = false;
         currentItemPlace.SetMaterial(transparentMaterial);
     }
 
-    void ActiveItemByScrollWheel()
+    void ActiveItem()
     {
         Transform[] itemList = currentItemPlace.GetComponentsInChildren<Transform>(true);
         Transform[] currentItemChild = currentItemPlace.transform.GetChild(itemIndex).GetComponentsInChildren<Transform>(true);
-
-        // scroll to activate item
-        if (Input.GetAxis("Mouse ScrollWheel") > 0)
-        {
-            itemIndex++;
-            itemIndex = Mathf.Clamp(itemIndex, 0, 102);
-        }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0)
-        {
-            itemIndex--;
-            itemIndex = Mathf.Clamp(itemIndex, 0, 102);
-        }
 
         foreach (Transform item in itemList)
         {
