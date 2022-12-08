@@ -98,10 +98,8 @@ public class TPSCharacterController : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Layer: " + collision.gameObject.layer);
         if (collision.gameObject.layer != LayerMask.NameToLayer("Player"))
         {
-            Debug.Log("On the Ground");
             isJumping = true;
         }
     }
