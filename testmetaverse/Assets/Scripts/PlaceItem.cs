@@ -36,6 +36,14 @@ public class PlaceItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.Instance.CurrentMode == GameManager.PlayMode.Play)
+        {
+            currentItemPlace.gameObject.SetActive(false);
+            return;
+        }
+
+        currentItemPlace.gameObject.SetActive(true);
+
         // scroll to activate item
         if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
