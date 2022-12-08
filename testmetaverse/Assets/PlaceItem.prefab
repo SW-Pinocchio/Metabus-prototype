@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2986197355455813522}
   - component: {fileID: 7527021854067817471}
   - component: {fileID: 3587581146893692745}
+  - component: {fileID: 2620861004189636194}
   m_Layer: 6
   m_Name: PlaceItem
   m_TagString: Untagged
@@ -183,6 +184,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshes: {fileID: 0}
+--- !u!114 &2620861004189636194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272579758255390742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77bf87d3c315384499359cd936ab8ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &49675017737817426
 PrefabInstance:
   m_ObjectHideFlags: 0
