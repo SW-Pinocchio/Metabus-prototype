@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 1819833304359502042}
   - component: {fileID: 1819833304359502043}
   - component: {fileID: 1819833304359502038}
+  - component: {fileID: 7897623222339172227}
   m_Layer: 3
   m_Name: Character
   m_TagString: Player
@@ -112,6 +113,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterBody: {fileID: 2219115467902414078}
   cameraArm: {fileID: 1819833303979522833}
+--- !u!114 &7897623222339172227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819833304359502037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf89c68ab0ef1d48b45685ee2b0b7bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  cubeList: []
+  materialList: []
+  prefabCube: {fileID: 4913295306495811258, guid: 35e0c49be3f21104ca9d2d25ce518422, type: 3}
+  transparentMaterial: {fileID: 2100000, guid: 99ad1d758cb0ac046ba4f43458601026, type: 2}
+  cubeMaterial: {fileID: 2100000, guid: ad15dc728b5343141b6deb0862b99ddc, type: 2}
+  debug: {x: 0, y: 0, z: 0}
 --- !u!1 &1819833304942240128
 GameObject:
   m_ObjectHideFlags: 0
