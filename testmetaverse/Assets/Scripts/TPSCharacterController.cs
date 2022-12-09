@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class TPSCharacterController : MonoBehaviour
@@ -8,6 +9,7 @@ public class TPSCharacterController : MonoBehaviour
     private Transform characterBody;
     [SerializeField]
     private Transform cameraArm;
+    private float cameraDistance;
 
     Animator animator;
     Rigidbody rigid;
@@ -23,6 +25,13 @@ public class TPSCharacterController : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.CurrentMode == GameManager.PlayMode.Write)
+            return;
+
+        // scroll to zoom
+        // cameraDistance = Mathf.Clamp(cameraDistance + Input.mouseScrollDelta.y, 0, 10);
+        cameraDistance = 1f;
+
         Move();
         InteractObj();
     }
@@ -34,6 +43,9 @@ public class TPSCharacterController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (GameManager.Instance.CurrentMode == GameManager.PlayMode.Write)
+            return;
+
         LookAround();
     }
 
@@ -92,12 +104,16 @@ public class TPSCharacterController : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Layer: " + collision.gameObject.layer);
         if (collision.gameObject.layer != LayerMask.NameToLayer("Player"))
         {
-            Debug.Log("On the Ground");
             isJumping = true;
         }
+    }
+
+    public float CameraDistance
+    {
+        get { return cameraDistance; }
+        set { cameraDistance = value; }
     }
 }
 

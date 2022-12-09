@@ -29,7 +29,7 @@ public class ObjectController : MonoBehaviour
             GetComponent<MeshRenderer>().material.color = Color.red;
         else if (objPressed) // raycast에 의해 오브젝트가 클릭될 때: blue
             GetComponent<MeshRenderer>().material.color = Color.blue;
-        else // 오브젝트의 기본색: white
+        else if (this.GetComponent<Collider>().enabled == true)// 오브젝트의 기본색: white
             GetComponent<MeshRenderer>().material.color = Color.white;
     }
 
