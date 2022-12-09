@@ -4,7 +4,6 @@ using System.IO;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEngine.WSA;
 
 public class PlaceItem : MonoBehaviour
 {
@@ -36,7 +35,7 @@ public class PlaceItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Instance.CurrentMode == GameManager.PlayMode.Play)
+        if (GameManager.Instance.CurrentMode != GameManager.PlayMode.Build)
         {
             currentItemPlace.gameObject.SetActive(false);
             return;

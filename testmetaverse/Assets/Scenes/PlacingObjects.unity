@@ -498,6 +498,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 425636880}
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: set_PostSaved
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: SaveAndGetData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783988949466913, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2175783989031397296, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -586,8 +618,56 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasPost
       objectReference: {fileID: 0}
+    - target: {fileID: 2175783989031397300, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783989579942707, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783989579942707, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783989579942707, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 425636880}
+    - target: {fileID: 2175783989579942707, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783989579942707, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: set_PostSaved
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783989579942707, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: SaveAndGetData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175783989579942707, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+--- !u!223 &425636879 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 2175783989031397297, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+  m_PrefabInstance: {fileID: 418892484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &425636880 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2175783989031397299, guid: 3f5ae642caaa71941a775fe3a804a7a6, type: 3}
+  m_PrefabInstance: {fileID: 418892484}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3ea17809c9f944588cd86aec79838f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &440164949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1916,6 +1996,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2620861004189636194, guid: 427c3604117a95f4e9a8c5fa798c0c62, type: 3}
+      propertyPath: canvasPost
+      value: 
+      objectReference: {fileID: 425636879}
     - target: {fileID: 3468168476421137134, guid: 427c3604117a95f4e9a8c5fa798c0c62, type: 3}
       propertyPath: m_RootOrder
       value: 6

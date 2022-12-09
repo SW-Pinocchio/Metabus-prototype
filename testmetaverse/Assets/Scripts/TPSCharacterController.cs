@@ -25,6 +25,9 @@ public class TPSCharacterController : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.CurrentMode == GameManager.PlayMode.Write)
+            return;
+
         // scroll to zoom
         // cameraDistance = Mathf.Clamp(cameraDistance + Input.mouseScrollDelta.y, 0, 10);
         cameraDistance = 1f;
@@ -40,6 +43,9 @@ public class TPSCharacterController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (GameManager.Instance.CurrentMode == GameManager.PlayMode.Write)
+            return;
+
         LookAround();
     }
 

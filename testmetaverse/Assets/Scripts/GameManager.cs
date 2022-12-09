@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     public enum PlayMode
     {
         Play,
-        Build
+        Build,
+        Write
     }
 
     PlayMode currentMode;

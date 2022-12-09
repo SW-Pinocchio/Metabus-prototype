@@ -19,8 +19,11 @@ public class ItemPostController : MonoBehaviour
     void Update()
     {
         if (GameManager.Instance.CurrentMode == GameManager.PlayMode.Build)
-        {
             return;
+        else if(GameManager.Instance.CurrentMode == GameManager.PlayMode.Write)
+        {
+            if (!canvasPost.gameObject.activeSelf)
+                GameManager.Instance.CurrentMode = GameManager.PlayMode.Play;
         }
 
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -30,10 +33,22 @@ public class ItemPostController : MonoBehaviour
             if (Physics.Raycast(ray, out var hit, float.MaxValue, ItemLogic.itemLayerMask))
             {
                 canvasPost.gameObject.SetActive(true);
+                canvasPost.transform.Find("ButtonSpace").gameObject.SetActive(true);
+                if (canvasPost.GetComponent<SaveAndGetData>().PostSaved)
+                    canvasPost.transform.Find("TextSpace").gameObject.SetActive(true);
+                else
+                    canvasPost.transform.Find("InputField").gameObject.SetActive(true);
+                GameManager.Instance.CurrentMode = GameManager.PlayMode.Write;
             }
         }
-        
-        if(canvasPost.gameObject.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+
+        if (canvasPost.transform.Find("TextSpace").gameObject.activeSelf)
+            canvasPost.transform.Find("ButtonSpace").Find("show").GetComponent<Button>().interactable = false;
+        else
+            canvasPost.transform.Find("ButtonSpace").Find("show").GetComponent<Button>().interactable = true;
+
+
+        if (canvasPost.gameObject.activeSelf && Input.GetKeyDown(KeyCode.Escape))
         {
             canvasPost.gameObject.SetActive(false);
         }

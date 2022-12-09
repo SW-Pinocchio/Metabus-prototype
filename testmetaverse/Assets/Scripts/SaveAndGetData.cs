@@ -19,6 +19,7 @@ public class SaveAndGetData : MonoBehaviour
     public string addPostURL = "http://localhost/HighScoreGame/addpost.php?";
     public string editPostURL = "http://localhost/HighScoreGame/editpost.php?";
 
+    bool postSaved = false;
 
     public void SubmitData()
     {
@@ -92,5 +93,11 @@ public class SaveAndGetData : MonoBehaviour
         string hash_convert =
             BitConverter.ToString(hashValue).Replace("-", "").ToLower();
         return hash_convert;
+    }
+
+    public bool PostSaved
+    {
+        get { return postSaved; }
+        set { postSaved = value; }
     }
 }
