@@ -21,6 +21,11 @@ public class SaveAndGetData : MonoBehaviour
 
     bool postSaved = false;
 
+    void Start()
+    {
+        ShowData();
+    }
+
     public void SubmitData()
     {
         StartCoroutine(SetPosts(titleInput.text, contentInput.text));
