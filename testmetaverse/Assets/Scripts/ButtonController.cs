@@ -7,6 +7,11 @@ public class ButtonController : MonoBehaviour
 {
     public void BClick()
     {
-        SceneManager.LoadSceneAsync(1);
+        NetworkManager networkManager = FindObjectOfType<NetworkManager>();
+        if (networkManager != null)
+        {
+            networkManager.Connect();
+            SceneManager.LoadSceneAsync(1);
+        }
     }
 }
